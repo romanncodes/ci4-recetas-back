@@ -1,0 +1,1209 @@
+CRITICAL - 2023-09-20 01:30:22 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(19): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:30:36 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(19): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:30:45 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(19): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:30:56 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(19): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:33:25 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(19): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:33:28 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(19): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:40:19 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(19): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:42:49 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(20): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:42:51 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(20): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:42:54 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(20): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:43:05 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(20): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:43:07 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(20): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:43:17 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(20): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:45:43 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(20): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:45:45 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(20): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:46:12 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(20): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:46:13 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(20): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:46:19 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(20): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:02 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:03 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:04 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:04 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:05 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:05 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:06 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:06 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:07 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:07 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:08 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:08 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:25 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:48:26 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:54:27 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:55:54 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 01:57:16 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(37): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 02:00:53 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(33): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 02:01:59 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(33): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 02:02:07 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(33): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-20 02:02:21 --> unpack(): Type n: not enough input, need 2, have 0
+in VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php on line 218.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unpack(): Type n: not enough input, need 2, have 0', '/Applications/MAMP/htdocs/marval-recetas-backend/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php', 218, [])
+ 2 VENDORPATH/phenx/php-font-lib/src/FontLib/BinaryStream.php(218): unpack('nn', '')
+ 3 VENDORPATH/phenx/php-font-lib/src/FontLib/Glyph/Outline.php(51): FontLib\BinaryStream->readInt16()
+ 4 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php(34): FontLib\Glyph\Outline::init(Object(FontLib\Table\Type\glyf), 76344, 0, Object(FontLib\TrueType\File))
+ 5 VENDORPATH/phenx/php-font-lib/src/FontLib/Table/Table.php(88): FontLib\Table\Type\glyf->_parse()
+ 6 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(318): FontLib\Table\Table->parse()
+ 7 VENDORPATH/phenx/php-font-lib/src/FontLib/TrueType/File.php(121): FontLib\TrueType\File->readTable('glyf')
+ 8 VENDORPATH/dompdf/dompdf/src/FontMetrics.php(242): FontLib\TrueType\File->parse()
+ 9 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1475): Dompdf\FontMetrics->registerFont([...], 'https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf', resource (stream-context))
+10 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(1332): Dompdf\Css\Stylesheet->_parse_font_face('font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+')
+11 VENDORPATH/dompdf/dompdf/src/Css/Stylesheet.php(367): Dompdf\Css\Stylesheet->_parse_css('@font-face {
+  font-family: \'Dancing Script\';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v25/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSoHTQ.ttf) format(\'truetype\');
+}')
+12 VENDORPATH/dompdf/dompdf/src/Dompdf.php(581): Dompdf\Css\Stylesheet->load_css_file('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap', 3)
+13 VENDORPATH/dompdf/dompdf/src/Dompdf.php(693): Dompdf\Dompdf->processHtml()
+14 APPPATH/Controllers/Home.php(33): Dompdf\Dompdf->render()
+15 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+16 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

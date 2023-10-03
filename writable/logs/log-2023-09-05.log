@@ -1,0 +1,107 @@
+CRITICAL - 2023-09-05 02:57:09 --> A non-numeric value encountered
+in APPPATH/Controllers/Home.php on line 27.
+ 1 APPPATH/Controllers/Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/Home.php', 27, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->supplyList()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 02:57:21 --> A non-numeric value encountered
+in APPPATH/Controllers/Home.php on line 27.
+ 1 APPPATH/Controllers/Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/Home.php', 27, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->supplyList()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 02:58:52 --> A non-numeric value encountered
+in APPPATH/Controllers/Home.php on line 27.
+ 1 APPPATH/Controllers/Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/Home.php', 27, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->supplyList()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:11:04 --> Call to undefined method App\Models\SupplyModel::count
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/SupplyController.php(61): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:11:07 --> Call to undefined method App\Models\SupplyModel::count
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/SupplyController.php(61): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:11:14 --> Call to undefined method App\Models\SupplyModel::count
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/SupplyController.php(61): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:11:36 --> Call to undefined method App\Models\SupplyModel::count
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/SupplyController.php(61): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:11:39 --> Call to undefined method App\Models\SupplyModel::count
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/SupplyController.php(61): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:11:46 --> Call to undefined method App\Models\SupplyModel::count
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/SupplyController.php(61): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:17:10 --> Call to undefined method App\Models\SupplyModel::count
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/SupplyController.php(61): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:18:04 --> Call to undefined method App\Models\SupplyModel::count
+in SYSTEMPATH/Model.php on line 873.
+ 1 APPPATH/Controllers/SupplyController.php(61): CodeIgniter\Model->__call('count', [])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:18:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+in APPPATH/Controllers/SupplyController.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:18:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+in APPPATH/Controllers/SupplyController.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:20:50 --> Call to a member function countAll() on array
+in APPPATH/Controllers/SupplyController.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:21:31 --> Call to a member function countAll() on array
+in APPPATH/Controllers/SupplyController.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-05 19:21:49 --> Call to a member function countAll() on array
+in APPPATH/Controllers/SupplyController.php on line 61.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyListByName()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

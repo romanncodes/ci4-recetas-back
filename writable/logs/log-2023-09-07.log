@@ -1,0 +1,28 @@
+CRITICAL - 2023-09-07 00:05:41 --> A non-numeric value encountered
+in APPPATH/Controllers/SupplyController.php on line 24.
+ 1 APPPATH/Controllers/SupplyController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/SupplyController.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyList()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 00:07:10 --> A non-numeric value encountered
+in APPPATH/Controllers/SupplyController.php on line 24.
+ 1 APPPATH/Controllers/SupplyController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/SupplyController.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyList()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 00:09:15 --> A non-numeric value encountered
+in APPPATH/Controllers/SupplyController.php on line 24.
+ 1 APPPATH/Controllers/SupplyController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/SupplyController.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyList()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-07 00:10:04 --> A non-numeric value encountered
+in APPPATH/Controllers/SupplyController.php on line 24.
+ 1 APPPATH/Controllers/SupplyController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/SupplyController.php', 24, [...])
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\SupplyController->supplyList()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SupplyController))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

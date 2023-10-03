@@ -1,0 +1,99 @@
+CRITICAL - 2023-09-28 17:54:44 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Home.php on line 98.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDFDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 17:55:56 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Home.php on line 98.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDFDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 17:55:57 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Home.php on line 98.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDFDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 17:55:58 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Home.php on line 98.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDFDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 17:55:59 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Home.php on line 98.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDFDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 17:55:59 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Home.php on line 98.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDFDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 17:55:59 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Home.php on line 98.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDFDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 17:56:29 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Home.php on line 98.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDFDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 17:56:30 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Home.php on line 98.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDFDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 17:59:55 --> Cannot use object of type mysqli as array
+in APPPATH/Controllers/Home.php on line 98.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDFDetails()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 21:14:30 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Views/welcome_message.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 6, [...])
+ 2 APPPATH/Views/welcome_message.php(6): file_get_contents('')
+ 3 APPPATH/Views/welcome_message.php(55): imageToBase64(null)
+ 4 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 7 APPPATH/Controllers/Home.php(21): view('welcome_message', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 21:17:17 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Views/welcome_message.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 6, [...])
+ 2 APPPATH/Views/welcome_message.php(6): file_get_contents('')
+ 3 APPPATH/Views/welcome_message.php(55): imageToBase64(null)
+ 4 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 7 APPPATH/Controllers/Home.php(21): view('welcome_message', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-28 21:17:18 --> file_get_contents(): Filename cannot be empty
+in APPPATH/Views/welcome_message.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(): Filename cannot be empty', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 6, [...])
+ 2 APPPATH/Views/welcome_message.php(6): file_get_contents('')
+ 3 APPPATH/Views/welcome_message.php(55): imageToBase64(null)
+ 4 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 5 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 7 APPPATH/Controllers/Home.php(21): view('welcome_message', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 9 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

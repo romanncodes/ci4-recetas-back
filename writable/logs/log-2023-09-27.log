@@ -1,0 +1,921 @@
+ERROR - 2023-09-27 16:18:47 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(128): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:18:47 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(128): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:18:50 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(128): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:18:50 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(128): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:19:53 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(128): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:19:53 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(128): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:20:35 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(128): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:20:35 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:, `pr_img` = :pr_img:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(128): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:38:17 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(128): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:38:17 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(128): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:38:42 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(128): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:38:42 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(128): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:39:48 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:39:48 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:39:49 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:39:49 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:39:51 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:39:51 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:39:51 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:39:51 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:39:52 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:39:52 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:39:52 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:39:52 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:40:12 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:40:12 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(129): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 16:41:14 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(121): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 16:41:14 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:, `pr_img` = :pr_img:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(121): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 17:10:31 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 17:10:31 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 17:12:43 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 17:12:43 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 17:13:00 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 17:13:00 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 17:13:02 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 17:13:02 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 17:13:03 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 17:13:03 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 17:15:24 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 17:15:24 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 17:16:17 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 17:16:17 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 17:16:50 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 17:16:50 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-27 17:18:19 --> mysqli_sql_exception: Unknown column 'pr_price' in 'field list' in /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/MySQLi/Connection.php(306): mysqli->query('UPDATE `product...', 0)
+#1 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `product...')
+#2 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `product...')
+#3 /Applications/MAMP/htdocs/marval-recetas-backend/system/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `product...', Array, false)
+#4 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+#5 /Applications/MAMP/htdocs/marval-recetas-backend/system/BaseModel.php(949): CodeIgniter\Model->doUpdate(Array, Array)
+#6 /Applications/MAMP/htdocs/marval-recetas-backend/system/Model.php(776): CodeIgniter\BaseModel->update(Array, Array)
+#7 /Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', Array)
+#8 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+#9 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#10 /Applications/MAMP/htdocs/marval-recetas-backend/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /Applications/MAMP/htdocs/marval-recetas-backend/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-09-27 17:18:19 --> Unknown column 'pr_price' in 'field list'
+in SYSTEMPATH/Database/BaseConnection.php on line 646.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `productos` SET `pr_name` = :pr_name:, `pr_unity` = :pr_unity:, `pr_price` = :pr_price:
+WHERE `productos`.`pr_id` IN :productos.pr_id:', [...], false)
+ 2 SYSTEMPATH/Model.php(385): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH/BaseModel.php(949): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH/Model.php(776): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH/Controllers/ProductController.php(116): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\ProductController->editProduct()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:11:06 --> syntax error, unexpected '$dompdf' (T_VARIABLE), expecting ';' or ','
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('/Applications/MAMP/htdocs/marval-recetas-backend/app/Controllers/Home.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Home')
+ 5 SYSTEMPATH/CodeIgniter.php(873): class_exists('\\App\\Controllers\\Home', true)
+ 6 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:11:16 --> Call to a member function setPaper() on null
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:11:16 --> Call to a member function setPaper() on null
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:11:17 --> Call to a member function setPaper() on null
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:11:17 --> Call to a member function setPaper() on null
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:11:17 --> Call to a member function setPaper() on null
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:11:17 --> Call to a member function setPaper() on null
+in APPPATH/Controllers/Home.php on line 38.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:52:19 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:52:22 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:52:50 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:52:51 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:52:52 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:52:52 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:52:52 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:53:06 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:53:06 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:53:07 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:53:07 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:53:07 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:53:14 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:53:15 --> Invalid argument supplied for foreach()
+in APPPATH/Views/welcome_message.php on line 48.
+ 1 APPPATH/Views/welcome_message.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', '/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php', 48, [])
+ 2 SYSTEMPATH/View/View.php(226): include('/Applications/MAMP/htdocs/marval-recetas-backend/app/Views/welcome_message.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH/Controllers/Home.php(24): view('welcome_message', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 19:54:03 --> Maximum execution time of 30 seconds exceeded
+in SYSTEMPATH/CodeIgniter.php on line 765.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-27 19:54:52 --> Maximum execution time of 30 seconds exceeded
+in VENDORPATH/dompdf/dompdf/lib/Cpdf.php on line 5594.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-27 19:55:00 --> Maximum execution time of 30 seconds exceeded
+in VENDORPATH/dompdf/dompdf/lib/Cpdf.php on line 5594.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-27 20:29:15 --> Class 'Pdf' not found
+in APPPATH/Controllers/Home.php on line 26.
+ 1 APPPATH/Controllers/Home.php(21): App\Controllers\Home->generarPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 20:29:42 --> Class 'Pdf' not found
+in APPPATH/Controllers/Home.php on line 26.
+ 1 APPPATH/Controllers/Home.php(21): App\Controllers\Home->generarPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 20:29:43 --> Class 'Pdf' not found
+in APPPATH/Controllers/Home.php on line 26.
+ 1 APPPATH/Controllers/Home.php(21): App\Controllers\Home->generarPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 20:29:54 --> Class 'Pdf' not found
+in APPPATH/Controllers/Home.php on line 26.
+ 1 APPPATH/Controllers/Home.php(21): App\Controllers\Home->generarPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 20:29:55 --> Class 'Pdf' not found
+in APPPATH/Controllers/Home.php on line 26.
+ 1 APPPATH/Controllers/Home.php(21): App\Controllers\Home->generarPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 20:30:11 --> Class 'Pdf' not found
+in APPPATH/Controllers/Home.php on line 26.
+ 1 APPPATH/Controllers/Home.php(21): App\Controllers\Home->generarPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 20:31:34 --> Class 'Pdf' not found
+in APPPATH/Controllers/Home.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 20:35:52 --> Class 'Pdf' not found
+in APPPATH/Controllers/Home.php on line 26.
+ 1 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDF()
+ 2 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-27 21:03:07 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH/Libraries/Pdf.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-27 21:03:19 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/Applications/MAMP/htdocs/marval-recetas-backend/app//tcpdf/tcpdf.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+in APPPATH/Libraries/Pdf.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-27 21:03:20 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/Applications/MAMP/htdocs/marval-recetas-backend/app//tcpdf/tcpdf.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+in APPPATH/Libraries/Pdf.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-27 21:03:20 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/Applications/MAMP/htdocs/marval-recetas-backend/app//tcpdf/tcpdf.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+in APPPATH/Libraries/Pdf.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-27 21:03:28 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/Applications/MAMP/htdocs/marval-recetas-backend/app//tcpdf/tcpdf.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+in APPPATH/Libraries/Pdf.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-27 21:03:28 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/Applications/MAMP/htdocs/marval-recetas-backend/app//tcpdf/tcpdf.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+in APPPATH/Libraries/Pdf.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-27 21:03:38 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/Applications/MAMP/htdocs/marval-recetas-backend/app//tcpdf/tcpdf.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+in APPPATH/Libraries/Pdf.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-27 21:04:12 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required '/Applications/MAMP/htdocs/marval-recetas-backend/app//tcpdf/tcpdf.php' (include_path='.:/Applications/MAMP/bin/php/php7.4.21/lib/php')
+in APPPATH/Libraries/Pdf.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-27 21:04:44 --> chr() expects parameter 1 to be int, string given
+in APPPATH/libraries/tcpdf/include/tcpdf_fonts.php on line 1671.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'chr() expects parameter 1 to be int, string given', '/Applications/MAMP/htdocs/marval-recetas-backend/app/libraries/tcpdf/include/tcpdf_fonts.php', 1671, [...])
+ 2 APPPATH/libraries/tcpdf/include/tcpdf_fonts.php(1671): chr('')
+ 3 APPPATH/libraries/tcpdf/include/tcpdf_fonts.php(1803): TCPDF_FONTS::unichr('', true)
+ 4 APPPATH/libraries/tcpdf/include/tcpdf_fonts.php(2099): TCPDF_FONTS::UTF8ArrSubString([...], 0, 1, true)
+ 5 APPPATH/libraries/tcpdf/tcpdf.php(1963): TCPDF_FONTS::utf8Bidi([...], '', false, true, null)
+ 6 APPPATH/Libraries/Pdf.php(11): TCPDF->__construct()
+ 7 APPPATH/Controllers/Home.php(25): App\Libraries\Pdf->__construct('P', 'mm', 'A4', true, 'UTF-8', false)
+ 8 SYSTEMPATH/CodeIgniter.php(915): App\Controllers\Home->generarPDF()
+ 9 SYSTEMPATH/CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
